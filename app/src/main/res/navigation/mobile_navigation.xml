@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_popular">
+
+    <fragment
+        android:id="@+id/navigation_popular"
+        android:name="com.ulbra.tmdb.Popular.PopularFragment"
+        android:label="@string/title_popular"
+        tools:layout="@layout/popular_fragment" />
+
+    <fragment
+        android:id="@+id/navigation_toprated"
+        android:name="com.ulbra.tmdb.TopRated.TopRatedFragment"
+        android:label="@string/title_toprated"
+        tools:layout="@layout/top_rated_fragment" />
+
+    <fragment
+        android:id="@+id/navigation_favorites"
+        android:name="com.ulbra.tmdb.Favorites.FavoritesFragment"
+        android:label="@string/title_favorites"
+        tools:layout="@layout/favorites_fragment" />
+</navigation>

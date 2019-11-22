@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">TMDB</string>
+    <string name="title_popular">Most Popular</string>
+    <string name="title_toprated">Top Rated</string>
+    <string name="title_favorites">Favorites</string>
+    <string name="movie_details">Movie Details</string>
+    <string name="popularity">Popularity</string>
+    <string name="add_favorites">Add to Favorites</string>
+    <string name="del_favorites">Remove from Favorites</string>
+    <string name="no_favorites">No favorites movies to show</string>
+    <string name="get_similars">See similar movies</string>
+    <string name="similars">Similars</string>
+    <string name="movie">Movie</string>
+</resources>

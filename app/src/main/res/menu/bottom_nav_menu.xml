@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_popular"
+        android:icon="@drawable/ic_priority_high_24dp"
+        android:title="@string/title_popular" />
+
+    <item
+        android:id="@+id/navigation_toprated"
+        android:icon="@drawable/ic_thumb_up_black_24dp"
+        android:title="@string/title_toprated" />
+
+    <item
+        android:id="@+id/navigation_favorites"
+        android:icon="@drawable/ic_favorite_black_24dp"
+        android:title="@string/title_favorites" />
+</menu>
